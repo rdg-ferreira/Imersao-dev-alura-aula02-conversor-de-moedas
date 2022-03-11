@@ -1,0 +1,86 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.dados {
+  margin: 3% 20%;
+  border: #ffffff 4px solid;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 50%;
+  font-size: 18px;
+}
+
+select {
+  width: 50%;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+select option {
+  font-size: 18px;
+}
+
+button {
+  width: 25%;
+  margin: 12px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: #FADA06;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color:goldenrod;
+  transition: 0.1s;
+}
+
+.result {
+  background-color: #ffffff;
+  color: #0C7B71;
+  padding: 20px;
+  margin: 20px 20%;
+}
